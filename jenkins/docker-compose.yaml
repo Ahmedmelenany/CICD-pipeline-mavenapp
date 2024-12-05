@@ -1,0 +1,6 @@
+services:
+        app:
+           image: maven-image:$BUILD_TAG
+           build: 
+                context: .
+
