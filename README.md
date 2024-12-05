@@ -1,11 +1,11 @@
-## CI/CD Pipeline: Build, Test, Push, Deploy
+# CI/CD Pipeline: Build, Test, Push, Deploy
 This repository implements a CI/CD pipeline with four stages: Build, Test, Push, and Deploy. The pipeline ensures code quality, streamlines deployment, and maintains continuous integration and delivery.
 
-# Pipeline Stages
-Build
+## Pipeline Stages
+### 1. Build
 
-Compiles the application and validates dependencies.
-Generates a Docker image for containerized deployment.
+    - Compiles the application and validates dependencies.
+    - Generates a Docker image for containerized deployment.
 Test
 
 Executes unit and integration tests.
